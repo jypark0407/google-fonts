@@ -1,0 +1,26 @@
+.font-list-container {
+    border-top:1px grey solid;
+    padding:1em;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    border:1px black solid;
+}
+
+.font-list {
+    display:block;
+    padding:1em;
+}
+
+.font-list-top {
+    display:flex;
+    justify-content:space-between;
+}
+
+.font-list-bottom {
+    margin:2em;
+}
+
+img {
+    width:70%;
+    height:auto;
+}

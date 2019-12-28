@@ -1,0 +1,35 @@
+.search-bar {
+    border:1px solid grey;
+    border-radius:50px;
+    display:grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    margin-top: 2em;
+    margin-left:1em;
+    margin-right:1em;
+    padding:0.2em 2em;
+    color:grey;
+}
+
+.search-bar span {
+    line-height:2em;
+}
+
+.search-bar img {
+    line-height:2em;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.right {
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+}
+
+.right img {
+    height:1.5em;
+    width:auto;
+}
+
+hr {
+    color:grey;
+}

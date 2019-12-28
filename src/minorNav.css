@@ -1,0 +1,24 @@
+.nav-container {
+    display:flex;
+    justify-content:space-between;
+    margin:0 1em;
+}
+
+.nav-left {
+    color:grey;
+}
+
+.nav-right {
+    display:flex; 
+    align-items:center;
+}
+
+ul {
+    list-style-type:none;
+}
+
+.nav-right a {
+    margin-right:1em;
+    text-decoration:none;
+    color:grey;
+}
